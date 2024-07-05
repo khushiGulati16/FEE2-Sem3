@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <!-- ques. what is the purpose of names we used in forms? methods of forms? get post in forms?  -->
+         <!-- dropdown and text-area -->
+        <center>
+            <h1>Input Field</h1>
+            <input type="text">
+            <br>
+            <br>
+            <input type="password">
+            <br>
+            <input type="date">
+            <br>
+            <input type="time">
+            <br>
+            <input type="color">
+            <br>
+            <hr>
+            <h1>Placeholder, labels and buttons</h1>
+            <label for="username">User Name:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="text" id="password" placeholder="Enter your password">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <br>
+            <hr>
+            <h1>Checkbox</h1>
+            <label for="age"></label>
+            <input type="checkbox" id="age">
+            <input type="checkbox" id="age" checked>
+            <br>
+            <hr>
+            <h1>Radio Buttons</h1>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <hr>
+            <h1>Range</h1>
+            <label for="">Volume</label>
+            <input type="range" id="volume" min="0" max="100" value="70" step="20">
+            <br>
+            <hr>
+            <h1>Dropdown</h1>
+            <select name="laanguages" id="language">
+               <option value="C">C</option>
+               <option value="C++">C++</option>
+               <option value="Java" selected>Java</option>
+            </select>
+
+        </center>
+    </form>
+</body>
+</html>
