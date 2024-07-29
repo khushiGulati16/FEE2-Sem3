@@ -1,0 +1,38 @@
+body{
+    background-color: chocolate;
+    color: #FDFFE2;
+}
+header{
+    margin-left: 23%;
+   
+}
+table{
+    
+    padding: 10px;
+    margin-left: 23%;
+}
+.sidenav {
+    height: 100%; 
+    width: 300px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FDFFE2;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1A2130;
+    display: block;
+    margin-top: 10px;
+  }
+  .sidenav img{
+    margin-bottom: 70px;
+  }
+  .sidenav a:hover {
+    color: coral;
+  }
